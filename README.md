@@ -66,7 +66,7 @@ imgV.layer.masksToBounds = YES;
 
 ````
 UIViewController *vc = [[UIViewController alloc] init];
-vc.view.frame = CGRectMake(0, 0, 400, 350);
+vc.view.frame = CGRectMake(0, 0, 330, 300);
 vc.view.backgroundColor = [UIColor redColor];
 [WZCSelectView showViewController:vc position:WZCSelectViewShowPositionStyleTop];
 ````
