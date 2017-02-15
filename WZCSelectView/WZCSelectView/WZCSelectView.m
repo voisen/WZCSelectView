@@ -10,7 +10,7 @@
 
 #define MainScreen [UIScreen mainScreen].bounds
 
-@interface WZCSelectView()<CAAnimationDelegate>
+@interface WZCSelectView()
 
 /** 动画时间 */
 @property (nonatomic,assign)  NSTimeInterval duration;
